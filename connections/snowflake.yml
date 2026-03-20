@@ -1,6 +1,0 @@
-unique_name: Snowflake
-object_type: connection
-label: Snowflake
-as_connection: Snowflake
-database: SAXO_BANK
-schema: PUBLIC
