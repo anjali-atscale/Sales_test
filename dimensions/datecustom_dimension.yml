@@ -5,7 +5,7 @@ hierarchies:
   - unique_name: datecustom_dimension Hierarchy
     label: datecustom_dimension Hierarchy
     levels:
-      - unique_name: year
+      - unique_name: year_name
       - unique_name: datecustom_dimension Level
 level_attributes:
   - unique_name: datecustom_dimension Level
@@ -17,11 +17,11 @@ level_attributes:
       - datekey
     name_column: datekey
     sort_column: datekey
-  - unique_name: year
-    label: year
+  - unique_name: year_name
+    label: year_name
     contains_unique_names: false
     dataset: datecustom
     key_columns:
-      - year
-    name_column: year
+      - year_name
+    name_column: year_name
 type: standard
